@@ -6,3 +6,7 @@ title1.innerText = "The App";
 title2.innerText = "Why buy it?";
 title3.innerText = "Clarity";
 title4.innerText = "Pixels, Who?";
+let title5 = document.getElementById("title5");
+let title6 = document.getElementById("title6");
+title5.innerText = "Features";
+title6.innerText = "Pricing";
