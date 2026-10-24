@@ -1,0 +1,383 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+body main {
+  max-width: 1500px;
+  background-color: #ffffff;
+}
+
+#section1 {
+  padding: 64px 0;
+}
+#section1 figure {
+  padding: 0;
+  margin: 0;
+}
+#section1 figure img {
+  max-width: 100%;
+  display: block;
+}
+#section1 #lorem1 {
+  padding: 0;
+}
+#section1 #lorem1 #title1 {
+  font-weight: bold;
+  padding: 0 16px;
+  margin: 10px 0;
+  font-size: 64px;
+  line-height: 96px;
+}
+#section1 #lorem1 #title2 {
+  font-weight: bold;
+  padding: 0 16px;
+  margin: 10px 0;
+  color: #4caf50;
+  font-size: 48px;
+  line-height: 72px;
+}
+#section1 #lorem1 #download {
+  display: block;
+  padding: 12px 24px;
+  width: 250px;
+  margin: 32px 16px;
+  border: 1px solid #f1f1f1;
+  color: #000;
+  background-color: #f1f1f1;
+}
+#section1 #lorem1 #download:hover {
+  background-color: #cccccc;
+  border: 1px solid #ffffff;
+}
+#section1 #lorem1 #download-mobile {
+  display: block;
+  padding: 12px 24px;
+  width: 100%;
+  margin: 32px 0 16px 0;
+  border: 1px solid #ffffff;
+  color: #000;
+  background-color: #ffffff;
+}
+#section1 #lorem1 #download-mobile:hover {
+  background-color: #cccccc;
+  border: 1px solid #ffffff;
+}
+#section1 #lorem1 #paragraph2 {
+  padding: 0 16px;
+  margin: 16px 0;
+}
+#section1 #lorem1 #icon1 {
+  color: #4caf50;
+  font-size: 24px;
+}
+#section1 #lorem1 #icon2 {
+  font-size: 24px;
+}
+#section1 #lorem1 #icon3 {
+  font-size: 24px;
+  color: #2196f3;
+}
+
+.spans {
+  font-size: 24px;
+}
+
+.paragraph {
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+#section2 {
+  background-color: #f1f1f1;
+  padding: 64px 0;
+}
+#section2 figure {
+  padding: 0;
+}
+#section2 figure img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+#section2 #lorem2 {
+  padding: 0;
+}
+#section2 #lorem2 #title3 {
+  font-weight: bold;
+  padding: 0 16px;
+  margin: 10px 0;
+  font-size: 64px;
+  line-height: 96px;
+}
+#section2 #lorem2 #title4 {
+  font-weight: bold;
+  padding: 0 16px;
+  margin: 10px 0;
+  color: #F44336;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+.Features {
+  color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+  background-color: #656565;
+}
+.Features h2 {
+  font-size: 64px;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.Features .icon {
+  display: flex;
+  font-size: 50px;
+  padding: 50px;
+  margin: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Features .icon .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Features .icon .item i#lightning {
+  color: #ddcf0a;
+}
+.Features .icon .item i#heart {
+  color: #f44336;
+}
+.Features .icon .item i#camera {
+  color: #d7e609;
+}
+.Features .icon .item i#power {
+  color: #0c800c;
+}
+.Features .icon .item i#gem {
+  color: #f1f1f1;
+}
+.Features .icon .item i#cloud {
+  color: #1d8af0;
+}
+.Features .icon .item i#globe {
+  color: #ddcf0a;
+}
+.Features .icon .item i#jumbo {
+  color: #1df0c2;
+}
+.Features .icon .item i#person {
+  color: #f1f1f1;
+}
+.Features .icon .item i#shield {
+  color: #ddcf0a;
+}
+.Features .icon .item i#wifi {
+  color: #aa9797;
+}
+.Features .icon .item i#image {
+  color: #b91a9f;
+}
+.Features .icon p {
+  margin: 16px 0;
+  width: 120px;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  .Features .icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 50px;
+    padding: 50px;
+    margin: 10px;
+    gap: 90px;
+  }
+  .Features .icon .item {
+    width: 50%;
+  }
+}
+* {
+  font-family: "Poppins";
+}
+
+footer {
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+  padding: 64px 16px;
+  padding-top: 64px;
+  background-color: #f1f1f1;
+}
+footer .social:hover {
+  color: #656565;
+  cursor: pointer;
+}
+footer i {
+  font-size: 20px;
+}
+footer footer p {
+  margin-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+#Pricing {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#table {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 25px;
+}
+
+.pricing-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.pricing-card {
+  flex: 1;
+  transition: 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.pricing-card:hover {
+  /* transform: translateY(-10px)scale(1.03); */
+  box-shadow: 0 10px 10px #888;
+}
+
+#pricing-title {
+  background-color: #656565;
+  color: white;
+  padding: 24px 40px;
+  font-size: 24px;
+}
+
+#pricing-titles {
+  background-color: #f44336;
+  padding: 24px 40px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-features li {
+  padding: 16px;
+  border-bottom: 1px solid #aa9797;
+}
+
+.pricing-amount {
+  font-size: 32px;
+  padding: 20px 0 4px 0;
+}
+
+.pricing-period {
+  color: #888;
+  padding-bottom: 20px;
+}
+
+.pricing-button {
+  display: block;
+  padding: 12px 24px;
+  width: 150px;
+  margin: auto;
+  border: #000;
+  color: #f1f1f1;
+  background-color: #000;
+}
+.pricing-button:hover {
+  background-color: #cccccc;
+  border: 1px solid #ffffff;
+}
+
+.pricing-button:hover {
+  background-color: #656565;
+}
+
+.button {
+  background-color: #e2e2e2;
+  padding: 25px;
+}
+
+#Pricing h2 {
+  font-size: 64px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 64px;
+}
+
+@media (max-width: 600px) {
+  #table {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    display: block;
+    gap: 25px;
+  }
+  #pricing-titles {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 600px) {
+  icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 50px;
+    padding: 50px;
+    margin: 10px;
+    gap: 90px;
+  }
+  .Features .icon .item {
+    width: 50%;
+  }
+  #table {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    display: block;
+    gap: 25px;
+  }
+  .pricing-title {
+    margin-bottom: 80px;
+  }
+}/*# sourceMappingURL=style.css.map */

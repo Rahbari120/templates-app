@@ -1,0 +1,33 @@
+@import '../base/vars';
+
+*{
+    font-family: $font;
+}
+
+footer {
+    max-width: $w-2;
+    margin: auto;
+    text-align: center;
+    padding: 64px 16px;
+    padding-top: 64px;
+    background-color: #f1f1f1;
+
+.social:hover {
+    color: $bg-second;
+    cursor: pointer;
+}
+
+i{
+    font-size: 20px;
+}
+
+    footer p {
+        margin-top: 30px;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: $text-black;
+    }
+}

@@ -1,0 +1,125 @@
+@import '../base/vars';
+@import '../base/mixin';
+
+*{
+    font-family: $font;
+}
+
+#Pricing{
+    margin-top: $p-15;
+    text-align: center;
+    // font-weight: bold;
+}
+#table {
+    background-color: $bg-lite;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+
+}
+
+
+
+.pricing-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 24px;
+    flex-direction: column;
+
+}
+
+.pricing-card {
+    flex: 1;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: 1px solid #ddd;
+
+}
+
+.pricing-card:hover {
+    /* transform: translateY(-10px)scale(1.03); */
+    box-shadow: 0 10px 10px #888;
+}
+
+#pricing-title {
+    background-color: $bg-second;
+    color: white;
+    padding: 24px 40px;
+    font-size: 24px;
+    
+
+}
+
+#pricing-titles {
+    background-color: $bg-primary;
+    padding: 24px 40px;
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features li {
+    padding: 16px;
+    border-bottom: 1px solid $bg-grayd;
+}
+
+.pricing-amount {
+    font-size: 32px;
+    padding: 20px 0 4px 0;
+}
+
+.pricing-period {
+    color: #888;
+    padding-bottom: 20px;
+
+}
+
+.pricing-button {
+    @include buttons($w-4, auto, $bg-black, $bg-black, $text-white);
+}
+
+.pricing-button:hover {
+    background-color: $bg-second;
+   
+}
+
+
+
+.button {
+    background-color: $bg-button;
+    padding: 25px;
+}
+
+    #Pricing h2{
+        font-size: $f-size3;
+        font-weight: bold;
+        padding-bottom: 20px;
+        padding-top: 64px;
+    }
+@media(max-width:600px) {
+
+    #table {
+        width: 100%;
+        background-color: $bg-lite;
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 80px;
+        flex-wrap: wrap;
+        display: block;
+        gap: 25px;
+    }
+
+    #pricing-titles{
+        margin-top: 80px;
+    }
+}
